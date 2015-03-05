@@ -1,0 +1,14 @@
+{
+  "name": "Square In A Row",
+  "description": "Complete a row whose sum is a perfect square!",
+  "launch_path": "/SquareGame/index.html",
+  "icons": {
+    "512": "/icons/icon-512.png",
+    "128": "/icons/icon-128.png"
+  },
+  "developer": {
+    "name": "zb3",
+    "url": "http://github.com/zb3"
+  },
+  "fullscreen": "true",
+}
