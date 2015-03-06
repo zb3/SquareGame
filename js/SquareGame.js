@@ -3,8 +3,8 @@ var SquareGame = function() {
 	this.settingsStorage = new GameStorage('SquareGame');
 
 	this.settings = {
-		size: 4,
-		modulus: 8,
+		size: 3,
+		modulus: 4,
 		userFirst: false,
 		randomizeFirst: true,
 		AIDepth: 6

@@ -7,28 +7,26 @@
 </head>
 <body>
 	<div id="settings-screen">
-		<div class="intro">
-			Be first to complete a row whose sum is a perfect square!
-		</div>
-		<div id="continue-game">
-			<button id="continuegame">Continue</button>
-		</div>
-		<div class="settings-display">
-			Game type<br>
-			<select id="settings-gametype"><option>3x3/4<option>4x4/4<option selected>4x4/8 (Default)<option>5x5/9<option>Custom</select><br><br>
-			<div id="settings-customsize">
-				Board size<br>
-				<select id="settings-boardsize"><option>3x3<option selected>4x4<option>5x5<option>6x6<option>7x7<option>8x8</select><br><br>
-				Digits<br>
-				<select id="settings-modulus"><option>3<option>4<option>5<option>6<option>7<option selected>8<option>9</select><br><br>
+		<div>
+			<div class="intro">
+				Be first to complete a row whose sum is a perfect square!
 			</div>
-			Difficulty<br>
-			<select id="settings-difficulty"><option>3 (Easy)<option>4<option>5<option selected>6 (Medium)<option>7<option>8<option>9 (Hard)<option>10<option>11</select>
-			<br><br>
-			Who starts<br>
-			<select id="settings-whostarts"><option>Player<option>CPU<option selected>CPU (random opening)</select><br><br>
+			<div id="continue-game">
+				<button id="continuegame">Continue</button>
+			</div>
+			<div class="settings-display">
+				Board size<br>
+				<select id="settings-boardsize"><option selected>3x3<option>4x4<option>5x5</select><br><br>
+				Digits<br>
+				<select id="settings-modulus"><option>3<option selected>4<option>5<option>6<option>7<option>8<option>9</select><br><br>
+				Difficulty<br>
+				<select id="settings-difficulty"><option>3 (Easy)<option>4<option>5<option selected>6 (Medium)<option>7<option>8<option>9 (Hard)<option>10<option>11</select>
+				<br><br>
+				Who starts<br>
+				<select id="settings-whostarts"><option>Player<option>CPU<option selected>CPU (random opening)</select><br><br>
+			</div>
+			<button id="newgame">New Game</button>
 		</div>
-		<button id="newgame">New Game</button>
 	</div>
 	<div id="game-screen" style="display: none">
 
